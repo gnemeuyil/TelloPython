@@ -79,3 +79,4 @@ while True:
     getKeyboardInput(drone=Drone, speed=70, image=Image)  # 按键控制
     cv2.imshow("Drone Control Centre", Image)
     cv2.waitKey(1)
+
