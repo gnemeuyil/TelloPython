@@ -3,7 +3,7 @@ import time
 import cv2
 from djitellopy import tello
 from time import sleep
-import KeyPressModule as kp
+import KeyPress as kp
 
 def getKeyboardInput(drone, speed, image):
     lr, fb, ud, yv = 0, 0, 0, 0
