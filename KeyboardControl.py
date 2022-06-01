@@ -2,8 +2,8 @@ import logging
 import time
 import cv2
 from djitellopy import tello
-import KeyPressModule as kp# 用于获取键盘按键
 from time import sleep
+import KeyPressModule as kp
 
 def getKeyboardInput(drone, speed, image):
     lr, fb, ud, yv = 0, 0, 0, 0
